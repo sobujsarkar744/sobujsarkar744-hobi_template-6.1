@@ -1,0 +1,916 @@
+/* ########################
+Template Name: HOBI || HTML Template;
+Authore: Md.Sobuj Sarkar;
+Version: 1.0.0;
+Created: 10 March 2021;
+File Description: Main CSS file of the template;
+################################################### */
+
+/* ########################
+01. General
+################################################### */ 
+
+/* ########################
+Typography
+################################################### */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Rufina:wght@400;700&display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,h3,
+h4,h5,h6{
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    color: #000a2d;
+    margin: 0;
+    padding: 0;   
+}
+h2{
+    font-size: 70px;
+}
+h4{
+    font-size: 20px;
+}
+p{  
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    margin: 0; 
+    padding: 0;   
+}
+a{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    text-decoration: none;    
+}
+/* ########################
+HEADER STYLE START HERE
+################################################### */
+header{
+    padding: 30px 0;
+    background-color: #fff;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    margin-left: 120px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu ul li a{
+    font-family: 'Rufina', serif;
+    font-size:14px;
+    font-weight:500;
+    color:#000a2d;
+    text-transform:capitalize ;
+    padding: 20px 20px;
+}
+.menu ul li a:hover{
+    color:#ff3d4f;
+    border-bottom: 2px solid #ff3d4f;
+    transition: .2s ease;
+}
+.menu-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.downlode{
+    margin-right: 20px;
+}
+.downlode button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff3d4f;
+}
+.downlode button:focus{
+    outline: none;
+}
+.downlode button:hover{
+    background-color: #000a2d;
+}
+.humberger{
+    height: 50px;
+    width: 50px;
+    color: #ff3d4f;
+    line-height: 50px;
+    background-color:#ff3d4f21;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 15px #ffc2c8;  
+}
+/* ########################
+BANNER STYLE START HERE
+################################################### */
+#banner{
+    background-image: url(../images/banneri.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.banner-content h4{
+    font-family: 'Rubik', sans-serif;
+    font-size:20px ;
+    line-height: 30px;
+    font-weight:400 ;
+    color: #ff3d4f;
+}
+.banner-content h2{
+    font-family: 'Rufina', serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #000a2d;
+    padding: 20px 0px 20px;
+}
+.banner-content p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6e7797;
+}
+.banner-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;
+}
+.video-button button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff3d4f;
+    text-transform: uppercase;
+}
+.video-button button:focus{
+    outline: none;
+}
+.video-button button:hover{
+    background-color: #000a2d;
+}
+.play-button {
+    height: 50px;
+    width: 50px;
+    color: #ff3d4f;
+    line-height: 50px;
+    background-color:#fff;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 15px #ffc2c8;  
+    margin-left: -817px;
+}
+.play-button:focus{
+    outline: none;
+}
+.video-button-text button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ff3d4f;;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-left: -853px;
+    text-transform: uppercase;
+}
+.video-button-text button:focus{
+    outline: none;
+}
+/* ########################
+ABOUT STYLE START HERE
+################################################### */
+#about{
+    padding: 120px 0;
+    background-color: #ffffff;
+}
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-content{
+    width: 55%;
+}
+.about-button{
+    width: 45%;
+}
+.about-content h4{
+    font-family: 'Rubik', sans-serif;
+    font-size:14px ;
+    line-height: 24px;
+    font-weight:400 ;
+    color: #ff3d4f;
+}
+.about-content h2{
+    font-family: 'Rufina', serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #000a2d;
+    padding-top: 20px;
+}
+.about-content p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+}
+.about-button-wrapper{
+    padding-top: 30px ;
+}
+.about-button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.downlode-cv button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff3d4f;
+    text-transform: uppercase;
+}
+.downlode-cv button:hover{
+    background-color:#000a2d;
+}
+.downlode-cv button:focus{
+    outline: none;
+}
+.design-process button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #79819e;
+    height: 50px;
+    width: 170px;
+    border: 3px solid #eaeeff;
+    border-radius: 50px;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-right:120px;
+}
+.design-process button:focus{
+    outline: none;
+}
+.design-process button:hover{
+    background-color: #ff3d4f;
+    border: none;
+    color: #fff;
+}
+/* ########################
+SERVICE STYLE START HERE
+################################################### */
+#services-item{
+    padding: 120px 0px;
+    background-color: #fff;
+}
+.service-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-item .item-one{
+    width: 30%;
+    border: 5px solid #f7f8ff;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service-item .item-two{
+    width: 30%;
+    border: 5px solid #f7f8ff;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px 15px;    
+}
+.service-item .item-three{
+    width: 30%;
+    border: 5px solid #f7f8ff;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.item-one .img{
+    width: 80px;
+    height: 80px;
+}
+.item-one h4{
+    font-family: 'Rufina', serif;
+    font-size: 24px;
+    line-height:34px;
+    font-weight: 700;
+    color: #000a2d;
+    padding: 40px 0px 30px;
+}
+.item-one p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #6e7797;
+}
+.list-icon ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.list-icon i{
+    font: 14px;
+    line-height: 30px;
+    color: #ff3d4f;
+    padding-right: 20px;
+}
+.item-two .img{
+    width: 80px;
+    height: 80px;
+}
+.item-two h4{
+    font-family: 'Rufina', serif;
+    font-size: 24px;
+    line-height:34px;
+    font-weight: 700;
+    color: #000a2d;
+    padding: 40px 0px 30px;
+}
+.item-two p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #6e7797;
+}
+.item-three .img{
+    width: 80px;
+    height: 80px;
+}
+.item-three h4{
+    font-family: 'Rufina', serif;
+    font-size: 24px;
+    line-height:34px;
+    font-weight: 700;
+    color: #000a2d;
+    padding: 40px 0px 30px;
+}
+.item-three p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #6e7797;
+}
+/* ########################
+SKILLS STYLE START HERE
+################################################### */
+#skills{
+ padding: 120px 0;
+ background-color: #f6f5ff;
+}
+.skill-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    width: 60%;
+}
+.skill-content{
+    width: 40%
+}
+.skill-wrapper .img img{
+    padding: 0px;
+}
+.skill-content h4{
+    font-family: 'Rufina', serif;
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #ff3d4f;
+}
+.skill-content h2{
+    font-family: 'Rufina', serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000a2d;
+    padding-top: 30px
+}
+.skill-content ul li img{
+    padding: 0px;
+}
+.skill-content ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.skill-content ul li p{
+    padding: 23px 0px;
+}
+/* ########################
+SKILLS STYLE END HERE
+################################################### */
+
+/* ########################
+WORKS STYLE START HERE
+################################################### */
+#works{
+    padding:120px 0;
+    background-color: #fff;
+}
+.works-heading p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #ff3d4f;
+}
+.works-heading h2{
+    font-family: 'Rufina', serif;
+    font-size: 70px;
+    line-height:80px;
+    font-weight: 700;
+    color: #000a2d;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.work-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+     margin-right:10px; 
+}
+.img-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center: 
+}
+img{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+/* ########################
+WORKS STYLE END HERE
+################################################### */
+
+/* ########################
+PROJECT STYLE START HERE
+################################################### */
+#project{
+    padding: 85px 260px;
+    background-color:#000a2d;
+}
+.project-text{
+    width: 60%;
+}
+.project-button{
+    width: 40%;
+}
+.project-text p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #ff3d4f;
+}
+.project-text h2{
+    font-family: 'Rufina', serif;
+    font-size: 58px;
+    line-height:70px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 32px;
+}
+.project-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-button{
+    display: flex;
+    justify-content: space-between;
+}
+.Get-Quote button i{
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 5px;
+}
+.Get-Quote button {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff3d4f;
+    text-transform: capitalize;
+    margin-right: 20px
+}
+.Get-Quote button:focus{
+    outline: none;
+}
+.Get-Quote button:hover{
+    background-color: #2e3f65;
+}
+.Give-Mail button i{
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 5px;
+}
+.Give-Mail button {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    border: 3px solid #2e3f65;
+    border-radius: 50px;
+    background-color: transparent;
+    text-transform: capitalize;
+}
+.Give-Mail button:focus{
+    outline: none;
+}
+.Give-Mail button:hover{
+    background-color: #2e3f65;
+}
+/* ########################
+PROJECT STYlE END HERE
+################################################### */
+
+/* ########################
+EXPERIENCE STYLE START HERE
+################################################### */
+#experience{
+    padding: 120px 0px;
+    background-color: #f6f5ff;
+}
+.experience-content{
+    text-align: center;
+}
+.experience-content p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #ff3d4f;
+}
+.experience-content h2{
+    font-family: 'Rufina', serif;
+    font-size: 70px;
+    line-height:80px;
+    font-weight: 700;
+    color: #000a2d;
+    padding-bottom: 98px;
+}
+.experience-item{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 30px;   
+}
+.experience-item .experience-one{
+    width: 32%;
+    background-color:#fff;
+}
+.experience-item .experience-two{
+    width: 32%;
+    background-color: #fff;
+}
+.experience-item .experience-three{
+    width: 32%;
+    background-color: #fff;
+}
+.img i{
+    font-size: 24px;
+    color: #fff;
+    color: #ff3d4f;
+    width: 80px;
+    height: 80px;
+    background-color: #fff2f3;
+    line-height: 80px;
+    text-align: center;
+    margin: 35px;
+}
+.content h4{
+    font-family: 'Rufina', serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff3d4f;
+    padding-top: 52px;
+}
+.content h2{
+ font-family: 'Rufina', serif;
+ font-size: 26px;
+ font-weight: 700;
+ color:#000a2d;
+ padding-top: 20px;
+ padding-bottom: 48px;
+}
+.experience-one p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.experience-two p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.experience-three p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.img{width: 40%;}
+.content{
+    width: 60%;
+}
+.logo-content{
+    display: flex;
+    justify-content: space-between;
+}
+/* ########################
+EXPERIENCE STYLE END HERE
+################################################### */
+
+/* ########################
+CONTACT STYLE START HERE
+################################################### */
+#contact{
+    padding:120px 0;
+    background-color: #fff;
+}
+.contact-heading{
+    text-align: center;
+}
+.contact-heading p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #ff3d4f;
+}
+.contact-heading h2{
+    font-family: 'Rufina', serif;
+    font-size: 70px;
+    line-height:80px;
+    font-weight: 700;
+    color: #000a2d;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form label{
+    font-size: 14px;
+    color: #000a2d;
+}
+.contact-form label{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000a2d;
+    text-transform: capitalize;
+}
+.contact-form input{
+    width: 550px;
+    height: 70px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 0px 40px;
+    border: 3px solid #dadceb;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-right: 50px
+}
+.contact-form textarea{
+    width: 550px;
+    height: 218px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding:0px 40px;
+    padding-top: 28px;
+    border: 3px solid #dadceb;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-right: 50px
+}
+.contact-form input:focus{
+    outline: none;
+}
+.contact-form textarea:focus{
+    outline: none;
+}
+.contact-form input::placeholder{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+}
+.contact-form textarea::placeholder{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+}
+.contact-form button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff3d4f;
+}
+.contact-form button:focus{
+    outline: none;
+}
+.contact-form button:hover{
+    background-color: #000a2d;
+}
+.logo i{
+    font-size: 40px;
+    color: #ff3d4f;
+    height: 630px;
+    width: 540px;
+    line-height: 528px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+/* ########################
+CONTACT STYLE END HERE
+################################################### */
+
+/* ########################
+LOGO STYLE START HERE
+################################################### */
+#logo{
+    padding: 120px 0px;
+    background-color: #f6f5ff;  
+}
+.logo-content{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.button i {
+    font-size: 40px;
+    color: #ff6472;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+.button p{
+    font-family: 'Rubik', sans-serif;
+    font-size:14px ;
+    font-weight:400 ;
+    color:#959cb4;
+    padding-top: 10px;   
+}
+.button h2{
+    font-family: 'Rufina', serif;
+    font-size:60px ;
+    font-weight:700 ;
+    color:#000a2d;
+    padding-top: 40px;
+    padding-left: 10px;  
+}
+/* ########################
+LOGO STYLE END HERE
+################################################### */
+
+/* ########################
+FOOTER STYLE START HERE
+################################################### */
+#footer{
+    padding:125px 0;
+    background-color:#000a2d;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    width: 30%;
+}
+.footer-text{
+    width: 70%;
+}
+.footer-logo h4{
+    font-family: 'Rufina', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:#fff;
+}
+.footer-logo p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#a4acc9;
+    padding: 20px 0px;
+}
+.footer-logo ul{
+    padding-left: 0px;
+    }
+.footer-logo ul li{
+    display: inline-block;
+    padding: 0px 8px;
+}
+.footer-logo ul li i{
+    font-size: 14px;
+    color:#a4acc9 ;   
+}
+.footer-list ul li{
+    display: inline-block;
+    padding: 0px 80px;
+    padding-left: 0px;
+}
+.footer-list ul{
+    padding-left: 0px;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text h4{
+    font-family: 'Rufina', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color:#fff; 
+}
+.footer-list ul li p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #afb5c9;
+    text-transform: uppercase;
+    padding: 30px 0px;
+}
+.footer-list ul li h4{
+    font-family: 'Rufina', serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: lowercase;
+}
